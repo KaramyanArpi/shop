@@ -17,8 +17,7 @@ def init_db():
         CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username VARCHAR(100) NOT NULL UNIQUE,
-            bio TEXT DEFAULT NULL,
-            birth_year INTEGER
+            age INTEGER
         );
     """)
 
