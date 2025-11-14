@@ -1,1 +1,1 @@
-DB_NAME = "online_shop.db"
+DB_NAME = "database.db"
